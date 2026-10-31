@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Gohil Parth Arvindbhai | IT Engineering Student &amp; Aspiring AI/ML Engineer</title>
+  <meta name="title" content="Gohil Parth Arvindbhai | IT Engineering Student &amp; Aspiring AI/ML Engineer">
+  <meta name="description" content="Personal portfolio of Gohil Parth Arvindbhai, 2nd-year IT Engineering student at SSASIT (GTU), Surat. Aspiring AI/ML Engineer passionate about programming, web development, and artificial intelligence.">
+  <meta name="keywords" content="Gohil Parth, Gohil Parth Arvindbhai, IT Engineering, AI ML Engineer, SSASIT, GTU Surat, C, C++, Web Development, QuickLearn AI, Akshar Ari Work">
+  <meta name="author" content="Gohil Parth Arvindbhai">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gohilparth439.github.io/">
+  <meta property="og:title" content="Gohil Parth Arvindbhai | Developer Portfolio">
+  <meta property="og:description" content="Learning Today, Building Tomorrow. Explore my projects, foundational skills, and learning journey towards AI/ML engineering.">
+  <meta property="og:image" content="assets/images/favicon.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Orbs -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+  <div class="ambient-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container" aria-hidden="true">
+    <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Header & Navigation Bar -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Gohil Parth Homepage">
+        <div class="brand-badge">PG</div>
+        <div class="brand-text">
+          <span class="brand-name">Parth Gohil</span>
+          <span class="brand-role">IT &amp; AI/ML Aspirant</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#goals" class="nav-link">Goals</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm desktop-only">Get In Touch</a>
+        <button type="button" class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="mobile-backdrop" id="mobile-backdrop" aria-hidden="true"></div>
+
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        
+        <!-- Left: Intro & Details -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span>2nd Year IT Student • Surat, Gujarat</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Gohil Parth Arvindbhai</span>
+          </h1>
+
+          <div class="typing-container">
+            <span class="typing-prefix">I am an </span>
+            <span id="typed-text" class="typed-text"></span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-tagline">
+            &ldquo;Learning Today, Building Tomorrow.&rdquo;
+          </p>
+
+          <p class="hero-description">
+            IT Engineering student passionate about Artificial Intelligence, programming, and web development. Focused on mastering fundamentals, creating practical applications, and growing toward my goal as an <strong>AI/ML Engineer</strong>.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L1 7"/></svg>
+            </a>
+            <a href="https://github.com/gohilparth439" target="_blank" rel="noopener noreferrer" class="btn btn-github" aria-label="Visit GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Row -->
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">2nd</span>
+              <span class="stat-label">Year B.E. IT</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Live Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">AI/ML</span>
+              <span class="stat-label">Career Focus</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Modern Developer Graphic & Terminal -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">parth@portfolio:~ (bash)</div>
+              <div class="terminal-badge">active</div>
+            </div>
+            <div class="terminal-body">
+              <div class="code-line"><span class="code-prompt">$</span> <span class="code-cmd">cat</span> <span class="code-file">developer_profile.json</span></div>
+              <pre class="code-block"><code>{
+  <span class="json-key">"name"</span>: <span class="json-str">"Gohil Parth Arvindbhai"</span>,
+  <span class="json-key">"title"</span>: <span class="json-str">"IT Engineering Student"</span>,
+  <span class="json-key">"ambition"</span>: <span class="json-str">"Aspiring AI/ML Engineer"</span>,
+  <span class="json-key">"education"</span>: {
+    <span class="json-key">"degree"</span>: <span class="json-str">"B.E. Information Technology"</span>,
+    <span class="json-key">"college"</span>: <span class="json-str">"SSASIT, Surat"</span>,
+    <span class="json-key">"university"</span>: <span class="json-str">"GTU"</span>,
+    <span class="json-key">"year"</span>: <span class="json-num">2</span>
+  },
+  <span class="json-key">"languages"</span>: [<span class="json-str">"C"</span>, <span class="json-str">"C++"</span>],
+  <span class="json-key">"motto"</span>: <span class="json-str">"Learning Today, Building Tomorrow"</span>,
+  <span class="json-key">"status"</span>: <span class="json-str">"Building practical projects &amp; learning daily 🚀"</span>
+}</code></pre>
+              <div class="code-line terminal-input-line">
+                <span class="code-prompt">$</span> <span class="code-cursor"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Badges around Terminal -->
+          <div class="floating-badge badge-top-right">
+            <span class="badge-icon">🧠</span>
+            <div>
+              <strong>Aspiring AI/ML</strong>
+              <span>Deep Learning &amp; Logic</span>
+            </div>
+          </div>
+          <div class="floating-badge badge-bottom-left">
+            <span class="badge-icon">📍</span>
+            <div>
+              <strong>Surat, India</strong>
+              <span>SSASIT • GTU</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Gohil Parth</span></h2>
+          <div class="header-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative / Biography -->
+          <div class="about-card story-card reveal-on-scroll">
+            <div class="about-card-header">
+              <div class="badge-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">My Journey &amp; Ambition</h3>
+                <span class="text-muted">Engineering student with a passion for innovation</span>
+              </div>
+            </div>
+
+            <div class="story-content">
+              <p>
+                Hello! I am <strong>Gohil Parth Arvindbhai</strong>, currently an Information Technology Engineering student in my 2nd Year at <strong>Shree Swami Atmanand Saraswati Institute of Technology</strong>, affiliated with <strong>Gujarat Technological University (GTU)</strong> in Surat, Gujarat.
+              </p>
+              <p>
+                I am deeply interested in <strong>Artificial Intelligence, programming, and web development</strong>. Rather than just studying theoretical concepts, I enjoy learning new technologies by designing practical solutions, developing hands-on web projects, and continually sharpening my technical problem-solving capabilities.
+              </p>
+              <p>
+                My ultimate career goal is to become an <strong>AI/ML Engineer</strong>. I believe that consistent learning, clean code architecture, and a strong curiosity for intelligent systems are the key drivers to shaping impactful technology for tomorrow.
+              </p>
+            </div>
+
+            <!-- Key Highlights Pill Badges -->
+            <div class="highlight-pills">
+              <span class="pill"><span class="pill-dot"></span> Hands-on Builder</span>
+              <span class="pill"><span class="pill-dot"></span> Dedicated Learner</span>
+              <span class="pill"><span class="pill-dot"></span> Problem Solver</span>
+              <span class="pill"><span class="pill-dot"></span> Future AI Engineer</span>
+            </div>
+          </div>
+
+          <!-- Bento Grid of Key Info Cards -->
+          <div class="about-cards-column reveal-on-scroll">
+            
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="info-body">
+                <h4>Education &amp; Institution</h4>
+                <p>B.E. in Information Technology (2nd Year)</p>
+                <span class="info-meta">Shree Swami Atmanand Saraswati Institute of Technology (GTU)</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+              </div>
+              <div class="info-body">
+                <h4>Technical Interests</h4>
+                <p>AI, Machine Learning, Web Tech &amp; Software Dev</p>
+                <span class="info-meta">Exploring neural models, modern web tooling &amp; algorithms</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="info-body">
+                <h4>Learning Mindset</h4>
+                <p>&ldquo;Learning Today, Building Tomorrow.&rdquo;</p>
+                <span class="info-meta">Daily practice, coding fundamentals, real-world utility</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="info-body">
+                <h4>Location</h4>
+                <p>Surat, Gujarat, India</p>
+                <span class="info-meta">Open to remote collaboration and tech community engagement</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Technical Competencies</span>
+          <h2 class="section-title">My Current <span class="gradient-text">Skills</span></h2>
+          <div class="header-divider"></div>
+          <div class="skill-disclaimer">
+            <span class="info-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              Foundational &amp; Beginner Level &mdash; Actively learning and building practical projects
+            </span>
+          </div>
+        </div>
+
+        <!-- Skills Categories -->
+        <div class="skills-wrapper">
+          
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <span class="category-desc">Core languages powering my logic &amp; problem-solving foundation</span>
+              </div>
+            </div>
+
+            <div class="skills-grid">
+              
+              <!-- Skill: C -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge lang-c">C</div>
+                  <span class="skill-level-badge">Beginner</span>
+                </div>
+                <h4 class="skill-name">C Programming</h4>
+                <p class="skill-note">
+                  Foundational understanding of procedural programming, variables, conditionals, loops, functions, arrays, and basic pointers.
+                </p>
+                <div class="skill-footer-tags">
+                  <span class="subtag">Algorithms</span>
+                  <span class="subtag">Logic Building</span>
+                  <span class="subtag">Certified</span>
+                </div>
+              </div>
+
+              <!-- Skill: C++ -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge lang-cpp">C++</div>
+                  <span class="skill-level-badge">Beginner</span>
+                </div>
+                <h4 class="skill-name">C++</h4>
+                <p class="skill-note">
+                  Learning object-oriented programming concepts (OOP), classes, objects, data structures, and algorithmic logic.
+                </p>
+                <div class="skill-footer-tags">
+                  <span class="subtag">OOP Concepts</span>
+                  <span class="subtag">Data Structures</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 2: Tools and Technologies -->
+          <div class="skill-category reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Tools &amp; Technologies</h3>
+                <span class="category-desc">Modern developer environments, cloud systems, and AI tools I use</span>
+              </div>
+            </div>
+
+            <div class="skills-grid tools-grid">
+              
+              <!-- Tool: VS Code -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </div>
+                  <span class="skill-level-badge">Primary IDE</span>
+                </div>
+                <h4 class="skill-name">Visual Studio Code</h4>
+                <p class="skill-note">
+                  Primary coding environment with customized extensions, debugger setups, and Git integration for web and C/C++ projects.
+                </p>
+              </div>
+
+              <!-- Tool: GitHub -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  </div>
+                  <span class="skill-level-badge">Version Control</span>
+                </div>
+                <h4 class="skill-name">GitHub</h4>
+                <p class="skill-note">
+                  Repository management, Git versioning, code hosting, and deploying live applications via GitHub Pages.
+                </p>
+              </div>
+
+              <!-- Tool: Google Antigravity -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+                  </div>
+                  <span class="skill-level-badge">AI Development</span>
+                </div>
+                <h4 class="skill-name">Google Antigravity</h4>
+                <p class="skill-note">
+                  Leveraging next-generation agentic workflows, rapid iteration, and smart development environments.
+                </p>
+              </div>
+
+              <!-- Tool: Firebase -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m4.93 4.93 14.14 14.14"/><path d="M20 12H4"/></svg>
+                  </div>
+                  <span class="skill-level-badge">Cloud Database</span>
+                </div>
+                <h4 class="skill-name">Firebase</h4>
+                <p class="skill-note">
+                  Realtime cloud database storage, data persistence, and party-wise record synchronization for web apps.
+                </p>
+              </div>
+
+              <!-- Tool: Gemini -->
+              <div class="skill-card">
+                <div class="skill-top">
+                  <div class="skill-icon-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </div>
+                  <span class="skill-level-badge">AI Assistant</span>
+                </div>
+                <h4 class="skill-name">Gemini</h4>
+                <p class="skill-note">
+                  AI-assisted problem solving, study assistance, code explanation, and generative AI prompt engineering.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Real-World Applications</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="header-divider"></div>
+          <p class="section-intro">
+            Practical web applications designed, built, and deployed to solve real-world problems.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: AKSHAR ARI WORK -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-preview-wrapper">
+              <img src="assets/images/akshar-preview.svg" alt="AKSHAR ARI WORK – Bill Generator interface preview" class="project-image" loading="lazy">
+              <div class="project-badge">Production Web App</div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-category">Business &amp; Billing Tool</span>
+                <span class="live-dot"><span class="dot-pulse"></span> Deployed</span>
+              </div>
+
+              <h3 class="project-title">AKSHAR ARI WORK &ndash; Bill Generator</h3>
+              
+              <p class="project-description">
+                A digital bill generation web application designed to simplify business billing and maintain party-wise bill history efficiently. Built with responsive web technologies and cloud data persistence.
+              </p>
+
+              <!-- Real Features List -->
+              <div class="project-features">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Digital bill generation with automated total calculation</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Party-wise structured billing history</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Firebase cloud database integration for data saving</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Instant search functionality across parties &amp; bills</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Mobile-friendly responsive user interface</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">GitHub Pages</span>
+              </div>
+
+              <!-- Project Links -->
+              <div class="project-actions">
+                <a href="https://gohilparth439.github.io/akshar-ari-work/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>Live Website</span>
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: QUICKLEARN AI -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-preview-wrapper">
+              <img src="assets/images/quicklearn-preview.svg" alt="QuickLearn AI – Digital Study Assistant preview" class="project-image" loading="lazy">
+              <div class="project-badge badge-ai">AI EdTech App</div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-category">AI-Powered Learning</span>
+                <span class="live-dot"><span class="dot-pulse"></span> Deployed</span>
+              </div>
+
+              <h3 class="project-title">QuickLearn AI</h3>
+              
+              <p class="project-description">
+                An AI-powered study and learning web application designed to help students with digital learning, interactive concept explanations, and streamlined revision workflows.
+              </p>
+
+              <!-- Real Features List -->
+              <div class="project-features">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>AI-assisted student study &amp; revision companion</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Simplified digital learning workflows for students</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Clean modern responsive user interface</span>
+                  </li>
+                  <li>
+                    <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Fast client-side loading and cross-device usability</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">AI Integration</span>
+                <span class="tag">Web Application</span>
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">GitHub Pages</span>
+              </div>
+
+              <!-- Project Links -->
+              <div class="project-actions">
+                <a href="https://gohilparth439.github.io/quicklearn-ai/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>Live Website</span>
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/gohilparth439" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" aria-label="Visit QuickLearn AI GitHub Profile">
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  <span>GitHub Profile</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. EDUCATION SECTION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Academic Background</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <div class="header-divider"></div>
+        </div>
+
+        <div class="education-card-wrapper reveal-on-scroll">
+          <div class="education-card">
+            
+            <div class="education-icon-col">
+              <div class="edu-badge-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="edu-timeline-bar"></div>
+            </div>
+
+            <div class="education-details">
+              <div class="edu-top-row">
+                <span class="edu-degree-pill">Bachelor of Engineering</span>
+                <span class="edu-year-tag">Currently studying in 2nd Year</span>
+              </div>
+
+              <h3 class="edu-degree-title">B.E. Information Technology</h3>
+              <h4 class="edu-college-name">Shree Swami Atmanand Saraswati Institute of Technology (SSASIT)</h4>
+              <p class="edu-university">Affiliated with <strong>Gujarat Technological University (GTU)</strong></p>
+              
+              <div class="edu-meta-items">
+                <span class="meta-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Surat, Gujarat, India
+                </span>
+                <span class="meta-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  2nd Year (Ongoing)
+                </span>
+              </div>
+
+              <div class="edu-coursework">
+                <h5>Key Academic Focus &amp; Coursework:</h5>
+                <div class="course-tags">
+                  <span class="course-chip">Programming in C</span>
+                  <span class="course-chip">Object-Oriented Programming (C++)</span>
+                  <span class="course-chip">Database Basics</span>
+                  <span class="course-chip">Computer Architecture</span>
+                  <span class="course-chip">Engineering Mathematics</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATES SECTION -->
+    <section id="certificates" class="section certificates-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Credentials &amp; Learning</span>
+          <h2 class="section-title">Certificates &amp; <span class="gradient-text">Recognitions</span></h2>
+          <div class="header-divider"></div>
+          <p class="section-intro">
+            Foundational programming credentials that represent my structured learning and dedication.
+          </p>
+        </div>
+
+        <div class="certificates-grid">
+          
+          <!-- C Programming Certificate Card -->
+          <div class="certificate-card reveal-on-scroll">
+            <div class="cert-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            
+            <div class="cert-body">
+              <div class="cert-badge">Completed &amp; Certified</div>
+              <h3 class="cert-title">C Programming Certificate</h3>
+              <p class="cert-issuer">Foundational Coursework &amp; Assessment</p>
+              <p class="cert-description">
+                Covers fundamental programming principles, algorithmic logic, pointers, memory addressing, data structures, and structural software development in C.
+              </p>
+              
+              <div class="cert-footer">
+                <span class="cert-domain">C Language / Fundamentals</span>
+                <span class="cert-status-badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  Verified
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Future Certificates Slot (Clean expansion placeholder) -->
+          <div class="certificate-card cert-upcoming-card reveal-on-scroll">
+            <div class="cert-icon-wrapper upcoming-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            
+            <div class="cert-body">
+              <div class="cert-badge badge-neutral">In Progress / Next Goal</div>
+              <h3 class="cert-title">AI, Machine Learning &amp; Web Certifications</h3>
+              <p class="cert-issuer">Upcoming Milestones</p>
+              <p class="cert-description">
+                Actively learning and preparing for upcoming certifications in Python, Artificial Intelligence, Machine Learning, and Modern Web Development.
+              </p>
+              
+              <div class="cert-footer">
+                <span class="cert-domain">Future Credentials</span>
+                <span class="text-muted">Will be added here</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. CAREER GOALS SECTION -->
+    <section id="goals" class="section goals-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Future Trajectory</span>
+          <h2 class="section-title">Career <span class="gradient-text">Goals &amp; Vision</span></h2>
+          <div class="header-divider"></div>
+        </div>
+
+        <div class="goals-banner reveal-on-scroll">
+          <div class="goals-banner-content">
+            <span class="ambition-tag">Primary Ambition</span>
+            <h3 class="ambition-title">Aspiring AI / Machine Learning Engineer</h3>
+            <p class="ambition-text">
+              My vision is to build intelligent, reliable, and data-driven systems that make technology more accessible, practical, and impactful. I am committed to moving from engineering fundamentals to advanced machine learning models and intelligent application deployment.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 Pillars of Interest -->
+        <div class="pillars-grid">
+          
+          <div class="pillar-card reveal-on-scroll">
+            <div class="pillar-number">01</div>
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v1H6a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2v2H6a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2v1a4 4 0 0 0 8 0v-1h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2v-2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4Z"/></svg>
+            </div>
+            <h4 class="pillar-title">Artificial Intelligence</h4>
+            <p class="pillar-desc">
+              Gaining deep understanding of modern AI principles, neural models, reasoning agents, and generative systems.
+            </p>
+          </div>
+
+          <div class="pillar-card reveal-on-scroll">
+            <div class="pillar-number">02</div>
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            </div>
+            <h4 class="pillar-title">Machine Learning</h4>
+            <p class="pillar-desc">
+              Mastering data preprocessing, statistical learning algorithms, predictive modeling, and model evaluation techniques.
+            </p>
+          </div>
+
+          <div class="pillar-card reveal-on-scroll">
+            <div class="pillar-number">03</div>
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+            </div>
+            <h4 class="pillar-title">Web Development</h4>
+            <p class="pillar-desc">
+              Creating intuitive, fast, and accessible digital web interfaces to connect end-users directly with intelligent applications.
+            </p>
+          </div>
+
+          <div class="pillar-card reveal-on-scroll">
+            <div class="pillar-number">04</div>
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h4 class="pillar-title">Software Development</h4>
+            <p class="pillar-desc">
+              Writing maintainable, clean code, mastering data structures, and practicing collaborative version control.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. CONTACT ME SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Reach Out</span>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+          <div class="header-divider"></div>
+          <p class="section-intro">
+            Have an opportunity, a question, or want to connect? Feel free to reach out via email or GitHub.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Cards Left Column -->
+          <div class="contact-info-col reveal-on-scroll">
+            
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L1 7"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-type">Direct Email</span>
+                <a href="mailto:parthgohil3191@gmail.com" class="contact-value">parthgohil3191@gmail.com</a>
+                <p class="contact-hint">Click below to open your email client or copy to clipboard.</p>
+                <div class="contact-card-buttons">
+                  <a href="mailto:parthgohil3191@gmail.com" class="btn btn-primary btn-xs">
+                    <span>Email Me</span>
+                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  </a>
+                  <button type="button" class="btn btn-outline btn-xs" id="copy-email-btn" data-email="parthgohil3191@gmail.com">
+                    <span id="copy-btn-text">Copy Address</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-type">GitHub Profile</span>
+                <a href="https://github.com/gohilparth439" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/gohilparth439</a>
+                <p class="contact-hint">Explore my repositories, web apps, and code contributions.</p>
+                <div class="contact-card-buttons">
+                  <a href="https://github.com/gohilparth439" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-xs">
+                    <span>View GitHub</span>
+                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-type">Location</span>
+                <span class="contact-value">Surat, Gujarat, India</span>
+                <p class="contact-hint">Shree Swami Atmanand Saraswati Institute of Technology</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quick Email Composer (100% Free, Client-side mailto generator) -->
+          <div class="contact-form-wrapper reveal-on-scroll">
+            <div class="form-card">
+              <div class="form-header">
+                <h3>Send a Quick Message</h3>
+                <p>This form drafts a direct email to <strong>parthgohil3191@gmail.com</strong> without any third-party ads or paid backend required.</p>
+              </div>
+
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="sender-name">Your Name</label>
+                  <input type="text" id="sender-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-subject">Subject</label>
+                  <input type="text" id="sender-subject" class="form-input" placeholder="e.g. Project Discussion / Opportunity" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-message">Message</label>
+                  <textarea id="sender-message" class="form-input form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Open in Mail App &amp; Send</span>
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+                <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <div class="brand-badge">PG</div>
+        <div>
+          <span class="footer-name">Gohil Parth Arvindbhai</span>
+          <p class="footer-tagline">&ldquo;Learning Today, Building Tomorrow.&rdquo;</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://github.com/gohilparth439" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Gohil Parth GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="current-year"></span> Gohil Parth Arvindbhai. All Rights Reserved.
+        </p>
+        <p class="credit-text">
+          Built with HTML5, CSS3 &amp; JavaScript &bull; Hosted on GitHub Pages
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top Button -->
+  <button type="button" id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top of page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
